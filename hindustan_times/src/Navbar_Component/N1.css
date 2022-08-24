@@ -1,8 +1,7 @@
-#m {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    border-radius: 10px;
+#main {
+    width: 100%;
+    height: 100px;
+    background-color: #011E29;
     border: 1px solid black;
 }
 
