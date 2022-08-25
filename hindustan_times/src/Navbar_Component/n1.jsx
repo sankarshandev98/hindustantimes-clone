@@ -1,9 +1,9 @@
 import "./N1.css"
 import React from "react";
 
-
-
 export default function N1() {
+    const current = new Date();
+    const date = current.toDateString();
     return (
         <div className="n1main">
             <div className="left">
@@ -16,10 +16,13 @@ export default function N1() {
                     </div>
                 </div>
                 <div className="l2">
-                    <h1>dgdbg</h1>
+                    <p>{date}</p>
+                    <p>New Delhi 30&#8451;</p><span><img src="https://cdn-icons-png.flaticon.com/512/2675/2675848.png" alt="" /></span>
                 </div>
             </div>
-            <div className="center"></div>
+            <div className="center">
+                <img src="https://www.hindustantimes.com/res/images/ht-logo.svg" alt="" />
+            </div>
             <div className="right">
                 <div className="r1">
                     <div className="r1left">
@@ -32,7 +35,9 @@ export default function N1() {
                         <img src="https://cdn-icons-png.flaticon.com/512/3596/3596175.png" alt="" /><span>Sign in</span>
                     </div>
                 </div>
-                <div className="r2"></div>
+                <div className="r2">
+                    <p>Start 15 Days Free Trial</p><span><button>Subscribe</button></span>
+                </div>
             </div>
         </div>
     )

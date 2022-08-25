@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main>p:hover {
+    color: #31B1CD;
+    cursor: pointer;
+}
+
+.main+hr {
+    color: grey;
+}
