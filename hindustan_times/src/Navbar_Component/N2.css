@@ -2,7 +2,7 @@
     font-family: sans-serif;
 }
 
-.main {
+.upper {
     width: 80%;
     margin: auto;
     height: 45px;
@@ -12,11 +12,42 @@
 }
 
 
-.main>p:hover {
+.upper>p:hover {
     color: #31B1CD;
     cursor: pointer;
 }
 
-.main+hr {
+.upper+hr {
     color: grey;
+    margin-top: -0px;
+}
+
+.lower {
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    gap: 10px;
+}
+
+.lower>div {
+    width: 9%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.lower>div:hover {
+    background-color: #c3e1e7;
+    cursor: pointer;
+}
+
+.lower+hr {
+    color: grey;
+    margin-top: 4px;
 }

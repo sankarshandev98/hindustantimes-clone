@@ -4,7 +4,7 @@ import "./N2.css";
 export default function N2() {
     return (
         <>
-            <div className="main">
+            <div className="upper">
                 <p>Home</p>
                 <p>Latest</p>
                 <p>India</p>
@@ -17,6 +17,19 @@ export default function N2() {
                 <p>Editorials</p>
                 <p>For You</p>
                 <p>Shop Now</p>
+            </div>
+            <hr />
+            <div className="lower">
+                <div>India At 75</div>
+                <div>Quickreads</div>
+                <div>Daily Digest</div>
+                <div>Quiz</div>
+                <div>Videos</div>
+                <div>Photos</div>
+                <div>Tech</div>
+                <div>Business</div>
+                <div>Sports</div>
+                <div>Videos</div>
             </div>
             <hr />
         </>
