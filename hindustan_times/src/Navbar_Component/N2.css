@@ -12,9 +12,10 @@
 }
 
 
-.upper>p:hover {
+.link:hover {
     color: #31B1CD;
     cursor: pointer;
+    text-decoration: solid #31B1CD underline;
 }
 
 .upper+hr {

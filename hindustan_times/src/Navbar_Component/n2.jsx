@@ -1,11 +1,25 @@
 import React from "react";
 import "./N2.css";
+import { Link } from "react-router-dom";
+
 
 export default function N2() {
     return (
         <>
             <div className="upper">
-                <p>Home</p>
+                <Link className="link" to="/trial">Home</Link>
+                <Link className="link" to="/latest">Latest</Link>
+                <Link className="link" to="/india">India</Link>
+                <Link className="link" to="/world">World</Link>
+                <Link className="link" to="/kolkata">Kolkata</Link>
+                <Link className="link" to="/entertainment">Entertainment</Link>
+                <Link className="link" to="/cricket">Cricket</Link>
+                <Link className="link" to="/lifestyle">Lifestyle</Link>
+                <Link className="link" to="/astrology">Astrology</Link>
+                <Link className="link" to="/editorials">Editorials</Link>
+                <Link className="link" to="/">For You</Link>
+                <Link className="link" to="/">Shop Now</Link>
+                {/* <p>Home</p>
                 <p>Latest</p>
                 <p>India</p>
                 <p>World</p>
@@ -16,7 +30,7 @@ export default function N2() {
                 <p>Astrology</p>
                 <p>Editorials</p>
                 <p>For You</p>
-                <p>Shop Now</p>
+                <p>Shop Now</p> */}
             </div>
             <hr />
             <div className="lower">
