@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function N2() {
     return (
         <>
-            <div className="upper">
+            <div className="N2upper">
                 <Link className="link" to="/trial">Home</Link>
                 <Link className="link" to="/latest">Latest</Link>
                 <Link className="link" to="/india">India</Link>
@@ -21,7 +21,7 @@ export default function N2() {
                 <Link className="link" to="/">Shop Now</Link>
             </div>
             <hr />
-            <div className="lower">
+            <div className="N2lower">
                 <div>India At 75</div>
                 <div>Quickreads</div>
                 <div>Daily Digest</div>
