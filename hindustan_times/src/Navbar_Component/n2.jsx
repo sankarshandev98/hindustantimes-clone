@@ -19,18 +19,6 @@ export default function N2() {
                 <Link className="link" to="/editorials">Editorials</Link>
                 <Link className="link" to="/">For You</Link>
                 <Link className="link" to="/">Shop Now</Link>
-                {/* <p>Home</p>
-                <p>Latest</p>
-                <p>India</p>
-                <p>World</p>
-                <p>Kolkata</p>
-                <p>Entertainment</p>
-                <p>Cricket</p>
-                <p>Lifestyle</p>
-                <p>Astrology</p>
-                <p>Editorials</p>
-                <p>For You</p>
-                <p>Shop Now</p> */}
             </div>
             <hr />
             <div className="lower">

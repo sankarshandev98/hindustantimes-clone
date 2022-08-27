@@ -6,7 +6,7 @@ import Navbar from './Navbar_Component/navbar'
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <AllRoutes />
       <Footer />
     </div>
@@ -14,7 +14,3 @@ function App() {
 }
 
 export default App
-
-const MyContext=React.createContext(default)
-
-<MyContext.Provider value={dark}></>
