@@ -22,6 +22,7 @@ export default function F1() {
                     <img src="https://images.hindustantimes.com/images/app-images/2022/1/footer-icons/tw-logo.svg" alt="" />
                 </div>
             </div>
+            <hr />
         </>
     )
 }
