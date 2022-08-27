@@ -1,0 +1,19 @@
+.MainLeft {
+    width: 240px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 3px;
+}
+
+.leftheading {
+    text-align: center;
+    padding-top: 20px;
+    color: #00B1CD;
+}
+
+.leftlink {
+    color: #00B1CD;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -0px;
+    padding-bottom: 10px;
+}
