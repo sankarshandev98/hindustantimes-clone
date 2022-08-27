@@ -17,7 +17,7 @@ export default function L1() {
             {articles.map(article => {
                 return (
                     <div>
-                        <h3>{article.title}</h3>
+                        <h4>{article.title}</h4>
                         <p className="grey">Published on {article.publishedAt}</p>
                         <hr />
                     </div>

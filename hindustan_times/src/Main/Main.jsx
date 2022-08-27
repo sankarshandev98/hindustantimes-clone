@@ -11,11 +11,10 @@ export default function Main() {
                 <p className="leftlink">View All</p>
             </div >
             <div className="L1">
-                <h3 className="leftheading">LATEST NEWS</h3>
+                <h3 className="leftheading">RECOMMENDED FOR YOU</h3>
                 <L2 />
                 <p className="leftlink">View All</p>
             </div>
         </>
-
     )
 }
