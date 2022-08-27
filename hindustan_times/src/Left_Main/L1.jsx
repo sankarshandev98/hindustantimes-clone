@@ -1,7 +1,7 @@
-import "./Main_Left.css"
 import { useEffect } from "react";
 import { useState } from "react"
 import axios from "axios"
+import "./L1.css"
 export default function Main_Left() {
     const [articles, setArticles] = useState([]);
     useEffect(() => {

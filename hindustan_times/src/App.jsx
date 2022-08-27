@@ -2,7 +2,7 @@ import AllRoutes from './Routes/AllRoutes'
 import './App.css'
 import Footer from './Footer_component/Footer'
 import Navbar from './Navbar_Component/navbar'
-import Main from './Main_component/Main'
+import Main from './Main/Main'
 
 function App() {
   return (
