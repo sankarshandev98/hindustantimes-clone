@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react"
 import axios from "axios"
-import "./C1.css"
+import "./C15.css"
 export default function C15() {
     const [articles, setArticles] = useState([]);
     useEffect(() => {

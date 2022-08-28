@@ -1,5 +1,6 @@
 import C1 from "../Center_Main/C1";
 import C2 from "../Center_Main/C2";
+import C3 from "../Center_Main/C3.JSX";
 import L1 from "../Left_Main/L1";
 import L2 from "../Left_Main/L2";
 import R1 from "../Right_Main/R1";
@@ -29,7 +30,7 @@ export default function Main() {
                 </div>
                 <div className="MainC1">
                     <h3 className="C1heading">DON'T MISS</h3>
-                    <C1 />
+                    <C3 />
                     <C2 />
                 </div>
                 <div className="MainC1">
