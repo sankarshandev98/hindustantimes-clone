@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react"
 import axios from "axios"
 import "./C1.css"
-export default function C11() {
+export default function C19() {
     const [articles, setArticles] = useState([]);
     useEffect(() => {
         const getArticles = async () => {
