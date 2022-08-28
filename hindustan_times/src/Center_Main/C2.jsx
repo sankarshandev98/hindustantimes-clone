@@ -7,7 +7,6 @@ export default function C2() {
     useEffect(() => {
         const getArticles = async () => {
             const res = await axios.get("https://newsapi.org/v2/top-headlines?country=in&pageSize=7&apiKey=1c2f8a5a5cc546da80437669d66101fc")
-            console.log(res)
             setArticles(res.data.articles)
         }
         getArticles()

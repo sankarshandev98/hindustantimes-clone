@@ -7,7 +7,6 @@ export default function C3() {
     useEffect(() => {
         const getArticles = async () => {
             const res = await axios.get("https://newsapi.org/v2/everything?q=Apple&pageSize=1&from=2022-08-28&sortBy=popularity&apiKey=1c2f8a5a5cc546da80437669d66101fc")
-            console.log(res)
             setArticles(res.data.articles)
         }
         getArticles()
