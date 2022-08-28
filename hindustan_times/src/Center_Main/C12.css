@@ -7,7 +7,6 @@
 .C2div {
     width: 560px;
     margin: auto;
-    height: 110px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 15px;
     border-radius: 3px;
@@ -17,16 +16,25 @@
 }
 
 .C2smalltitle>h3 {
-    margin-top: -0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .C2smalltitle {
     width: 70%;
+    height: 100px;
 }
 
 .C2smalltitle>h3:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.C2smalltitle>h3 {
+    margin-top: 0px;
 }
 
 .C2smallimg {
@@ -36,9 +44,9 @@
 
 .source {
     color: #00B1CD;
-    padding-top: 0px;
     font-size: 18px;
-    margin-bottom: -10px;
+    margin-top: -5px;
+    margin-bottom: -12px;
 }
 
 .source:hover {
