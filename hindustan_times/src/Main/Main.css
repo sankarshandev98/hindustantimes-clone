@@ -21,11 +21,11 @@
 }
 
 .MainC1 {
-    width: 42%;
-    border-radius: 3px;
+    width: 612px;
     display: flex;
     flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    margin-bottom: 20px;
 }
 
 .Centerleftheading {
@@ -34,7 +34,8 @@
     font-size: 20px;
 }
 
-.MainCenter {
-    width: 500px;
-    border: 1px solid black;
+.MainRight {
+    width: 335px;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    padding-bottom: 20px;
 }
