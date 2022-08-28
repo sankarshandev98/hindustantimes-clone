@@ -1,4 +1,16 @@
 .C1bigimg {
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: 310px;
+    border-radius: 3px;
+}
+
+.C1div {
+    width: 35%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.source {
+    color: #00B1CD;
 }
