@@ -26,7 +26,7 @@ import "./Main.css";
 
 export default function Main() {
     return (
-        <>
+        <div className="MainContainer">
             <div className="MainLeft">
                 <div className="MainL1">
                     <h3 className="L1heading">LATEST NEWS</h3>
@@ -110,6 +110,6 @@ export default function Main() {
                     <p className="rightlink">View All</p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

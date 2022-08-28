@@ -7,10 +7,10 @@ import Main from './Main/Main'
 function App() {
   return (
     <div className="App">
-      <Main />
-      {/* <Navbar />
+      <Navbar />
       <AllRoutes />
-      <Footer /> */}
+      <Main />
+      <Footer />
     </div>
   )
 }
