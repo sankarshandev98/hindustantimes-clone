@@ -9,15 +9,17 @@ import "./Main.css";
 export default function Main() {
     return (
         <>
-            <div className="MainL1">
-                <h3 className="L1heading">LATEST NEWS</h3>
-                <L1 />
-                <p className="leftlink">View All</p>
-            </div >
-            <div className="MainL1">
-                <h3 className="L1heading">RECOMMENDED FOR YOU</h3>
-                <L2 />
-                <p className="leftlink">View All</p>
+            <div className="MainLeft">
+                <div className="MainL1">
+                    <h3 className="L1heading">LATEST NEWS</h3>
+                    <L1 />
+                    <p className="leftlink">View All</p>
+                </div >
+                <div className="MainL1">
+                    <h3 className="L1heading">RECOMMENDED FOR YOU</h3>
+                    <L2 />
+                    <p className="leftlink">View All</p>
+                </div>
             </div>
             <div className="MainCenter">
                 <div className="MainC1">
