@@ -1,4 +1,4 @@
-/* .L1 {
+.L1 {
     width: 240px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 3px;
@@ -18,4 +18,23 @@
     text-align: center;
     margin-top: -0px;
     padding-bottom: 10px;
-} */
+}
+
+.MainC1 {
+    width: 42%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Centerleftheading {
+    text-align: center;
+    color: #00B1CD;
+    font-size: 20px;
+}
+
+.MainCenter {
+    width: 500px;
+    border: 1px solid black;
+}

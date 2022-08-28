@@ -5,7 +5,8 @@
 }
 
 .C2div {
-    width: 38%;
+    width: 560px;
+    margin: auto;
     height: 110px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 15px;

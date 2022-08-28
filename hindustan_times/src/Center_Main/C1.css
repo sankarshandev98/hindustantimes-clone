@@ -5,12 +5,23 @@
 }
 
 .C1div {
-    width: 35%;
+    width: 560px;
+    margin: auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 10px;
     border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 17px;
+}
+
+.C1div>h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .source {
     color: #00B1CD;
+}
+
+.source:hover {
+    text-decoration: underline;
 }
