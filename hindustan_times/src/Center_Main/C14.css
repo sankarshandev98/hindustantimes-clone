@@ -16,10 +16,11 @@
 }
 
 .C2smalltitle>h3 {
+    margin-top: 0px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
 
@@ -33,10 +34,6 @@
     cursor: pointer;
 }
 
-.C2smalltitle>h3 {
-    margin-top: 0px;
-}
-
 .C2smallimg {
     display: flex;
     align-items: center;
@@ -44,8 +41,7 @@
 
 .source {
     color: #00B1CD;
-    font-size: 18px;
-    margin-top: -5px;
+    font-size: 30px;
     margin-bottom: -12px;
 }
 
