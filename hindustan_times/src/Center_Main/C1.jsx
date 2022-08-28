@@ -20,7 +20,7 @@ export default function C1() {
                         <h4>{article.title}</h4>
                         <p>{article.source.name}</p>
                         <p className="grey">Updated on {article.publishedAt}</p>
-                        <img src={article.urlToImage} alt="" />
+                        <img className="C1bigimg" src={article.urlToImage} alt="" />
                     </div>
                 )
             })}
