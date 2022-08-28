@@ -6,7 +6,7 @@ export default function C9() {
     const [articles, setArticles] = useState([]);
     useEffect(() => {
         const getArticles = async () => {
-            const res = await axios.get("https://newsapi.org/v2/everything?q=bitcoin&pageSize=1&apiKey=1c2f8a5a5cc546da80437669d66101fc")
+            const res = await axios.get("https://newsapi.org/v2/everything?q=trending&pageSize=1&apiKey=1c2f8a5a5cc546da80437669d66101fc")
             console.log(res)
             setArticles(res.data.articles)
         }
