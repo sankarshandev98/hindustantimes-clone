@@ -9,68 +9,68 @@ import "./Main.css";
 export default function Main() {
     return (
         <>
-            <div className="L1">
-                <h3 className="leftheading">LATEST NEWS</h3>
-                {/* <L1 /> */}
+            <div className="MainL1">
+                <h3 className="L1heading">LATEST NEWS</h3>
+                <L1 />
                 <p className="leftlink">View All</p>
             </div >
-            <div className="L1">
-                <h3 className="leftheading">RECOMMENDED FOR YOU</h3>
-                {/* <L2 /> */}
+            <div className="MainL1">
+                <h3 className="L1heading">RECOMMENDED FOR YOU</h3>
+                <L2 />
                 <p className="leftlink">View All</p>
             </div>
-            {/* <div className="MainCenter">
+            <div className="MainCenter">
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">TOP NEWS</h3>
+                    <h3 className="C1heading">TOP NEWS</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">DON'T MISS</h3>
+                    <h3 className="C1heading">DON'T MISS</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">ENTERTAINMENT</h3>
+                    <h3 className="C1heading">ENTERTAINMENT</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">CRICKET</h3>
+                    <h3 className="C1heading">CRICKET</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">TRENDING</h3>
+                    <h3 className="C1heading">TRENDING</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">SHOP NOW</h3>
+                    <h3 className="C1heading">SHOP NOW</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">RECOMMENDED FOR YOU</h3>
+                    <h3 className="C1heading">RECOMMENDED FOR YOU</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">LIFESTYLE</h3>
+                    <h3 className="C1heading">LIFESTYLE</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">INDIA NEWS</h3>
+                    <h3 className="C1heading">INDIA NEWS</h3>
                     <C1 />
                     <C2 />
                 </div>
                 <div className="MainC1">
-                    <h3 className="Centerleftheading">OTT PLAY</h3>
+                    <h3 className="C1heading">OTT PLAY</h3>
                     <C1 />
                     <C2 />
                 </div>
-            </div> */}
+            </div>
             <div className="MainRight">
                 <div className="MainR1">
                     <h3 className="R1heading">IN PICS</h3>

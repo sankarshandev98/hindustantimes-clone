@@ -1,4 +1,4 @@
-.L1 {
+.MainL1 {
     width: 240px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 3px;
@@ -6,7 +6,23 @@
     padding-right: 10px;
 }
 
-.leftheading {
+.MainC1 {
+    width: 612px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+
+.MainR1 {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    margin-bottom: 10px;
+}
+
+.L1heading {
     text-align: center;
     padding-top: 20px;
     color: #00B1CD;
@@ -20,26 +36,10 @@
     padding-bottom: 10px;
 }
 
-.MainC1 {
-    width: 612px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
-    margin-bottom: 20px;
-}
-
-.Centerleftheading {
+.C1heading {
     text-align: center;
     color: #00B1CD;
     font-size: 20px;
-}
-
-.MainR1 {
-    width: 335px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
-    margin-bottom: 10px;
 }
 
 .R1heading {
