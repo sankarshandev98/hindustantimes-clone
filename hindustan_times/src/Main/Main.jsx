@@ -73,19 +73,21 @@ export default function Main() {
             </div> */}
             <div className="MainRight">
                 <div className="MainR1">
-                    <h3 className="leftheading">IN PICS</h3>
+                    <h3 className="R1heading">IN PICS</h3>
                     <R1 />
                     <R2 />
                 </div>
                 <div className="MainR1">
-                    <h3 className="leftheading">MUST WATCH</h3>
+                    <h3 className="R1heading">MUST WATCH</h3>
                     <R1 />
                     <R2 />
+                    <p className="rightlink">View All</p>
                 </div>
                 <div className="MainR1">
-                    <h3 className="leftheading">IT'S VIRAL</h3>
+                    <h3 className="R1heading">IT'S VIRAL</h3>
                     <R1 />
                     <R2 />
+                    <p className="rightlink">View All</p>
                 </div>
             </div>
         </>

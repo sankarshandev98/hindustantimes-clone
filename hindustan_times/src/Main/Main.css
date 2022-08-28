@@ -34,8 +34,25 @@
     font-size: 20px;
 }
 
-.MainRight {
+.MainR1 {
     width: 335px;
-    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    margin-bottom: 10px;
+}
+
+.R1heading {
+    text-align: center;
+    color: #00B1CD;
+    margin-bottom: -5px;
+}
+
+.rightlink {
+    text-align: center;
+    color: #00B1CD;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
