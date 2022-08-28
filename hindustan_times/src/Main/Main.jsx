@@ -96,6 +96,7 @@ export default function Main() {
                     <h3 className="R1heading">IN PICS</h3>
                     <R1 />
                     <R2 />
+                    <p className="rightlink">View All</p>
                 </div>
                 <div className="MainR1">
                     <h3 className="R1heading">MUST WATCH</h3>

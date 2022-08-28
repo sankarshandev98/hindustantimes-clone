@@ -4,6 +4,8 @@
     border-radius: 3px;
     padding-left: 10px;
     padding-right: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
 }
 
 .MainC1 {
@@ -60,7 +62,6 @@
 .MainContainer {
     margin: auto;
     width: 82%;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
