@@ -1,0 +1,82 @@
+.F1upper {
+    margin: auto;
+    width: 82%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.F1upper+p {
+    margin-left: 9%;
+    color: white;
+    font-weight: bold;
+}
+
+.fimg {
+    height: 60px;
+}
+
+.simg {
+    height: 75px;
+}
+
+.F1lower {
+    margin: auto;
+    width: 82%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.F1lower>select {
+    width: 220px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.F1lower>input {
+    width: 350px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    color: grey;
+    font-size: 15px;
+    padding-left: 12px;
+    margin-left: -19.5%;
+}
+
+.F1lower>button {
+    width: 138px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    margin-left: -19.5%;
+    cursor: pointer;
+}
+
+.F1lowerimg {
+    width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.F1lowerimg>img {
+    width: 38px;
+}
+
+.F1UpperContainer {
+    padding-top: 25px;
+}

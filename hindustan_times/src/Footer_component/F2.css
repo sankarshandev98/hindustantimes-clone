@@ -1,0 +1,27 @@
+.F2main {
+    margin-top: 200px;
+    width: 82%;
+    margin: auto;
+    display: flex;
+}
+
+.F2main>div {
+    width: 16.66%;
+    height: 100%;
+}
+
+.F2mainanch>p {
+    cursor: pointer;
+}
+
+.F2mainanch>p:hover {
+    text-decoration: underline;
+}
+
+.grey {
+    color: grey
+}
+
+.white {
+    color: white;
+}
