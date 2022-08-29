@@ -39,7 +39,7 @@ export default function Main() {
                     <p className="leftlink">View All</p>
                 </div>
             </div>
-            {/* <div className="MainCenter">
+            <div className="MainCenter">
                 <div className="MainC1">
                     <h3 className="C1heading">TOP NEWS</h3>
                     <C1 />
@@ -110,7 +110,7 @@ export default function Main() {
                     <R2 />
                     <p className="rightlink">View All</p>
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
