@@ -1,0 +1,27 @@
+.C1bigimg {
+    width: 100%;
+    height: 310px;
+    border-radius: 3px;
+}
+
+.C1div {
+    width: 560px;
+    margin: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 3px;
+    padding: 15px;
+    margin-bottom: 17px;
+}
+
+.C1div>h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.source {
+    color: #00B1CD;
+}
+
+.source:hover {
+    text-decoration: underline;
+}

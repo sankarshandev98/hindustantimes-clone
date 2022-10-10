@@ -1,0 +1,68 @@
+.MainL1 {
+    width: 215px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.MainC1 {
+    width: 612px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+
+.MainR1 {
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+}
+
+.L1heading {
+    text-align: center;
+    padding-top: 20px;
+    color: #00B1CD;
+}
+
+.leftlink {
+    color: #00B1CD;
+    cursor: pointer;
+    text-align: center;
+    margin-top: -0px;
+    padding-bottom: 10px;
+}
+
+.C1heading {
+    text-align: center;
+    color: #00B1CD;
+    font-size: 20px;
+}
+
+.R1heading {
+    text-align: center;
+    color: #00B1CD;
+    margin-bottom: -5px;
+}
+
+.rightlink {
+    text-align: center;
+    color: #00B1CD;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.MainContainer {
+    margin: auto;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
