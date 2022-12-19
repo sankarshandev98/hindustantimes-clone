@@ -11,7 +11,7 @@
 
 ### Screenshots
 
-<img src="[https://ibb.co/Q91pt6k](https://postimg.cc/7f3sSz3V)" alt="1"/>
+<img src="https://drive.google.com/file/d/10065I5QGUcqjVQd3d0uPvIQMkMAL8KIc/view" alt="1"/>
 
 
 #### Features
