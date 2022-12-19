@@ -11,7 +11,7 @@
 
 ### Screenshots
 
-<img src="https://drive.google.com/file/d/10065I5QGUcqjVQd3d0uPvIQMkMAL8KIc/view" alt="1"/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQTCBpZJDG_Tt94q9F2x_p3Hznaz-MUtCIlQ&usqp=CAU" alt="1"/>
 
 
 #### Features
